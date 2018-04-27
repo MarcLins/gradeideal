@@ -19,6 +19,7 @@ body {
 .materias button {
   border-radius: 4px;
   text-transform: uppercase;
+  margin-bottom: 5px;
   outline: 0;
   background:#166CBF;
   width: 100%;
@@ -32,6 +33,21 @@ body {
 }
 .materias button:hover,.materias button:active,.materias button:focus {
   background:#1E90FF;
+}
+
+.mensagem {
+  display: inline-block;
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.mensagem a {
+  color: #166CBF;
+  text-decoration: none;
+}
+
+.borda{
+  border: 0.5px solid #b3b3b3;
 }
 
 /* CHECKBOX */
@@ -98,4 +114,12 @@ body {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.periodo{
+  color: #166CBF;
+}
+
+.divisao{
+  padding-top: 15px;
 }

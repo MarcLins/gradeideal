@@ -3,50 +3,58 @@
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Anderson Júnior">
-  <title>Selecionar matérias já pagas - Grade ideal</title>
+  <title>Matérias - Grade ideal</title>
   <link rel="stylesheet" href="css/lista.css">
-  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-
-  <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-  </div>
-
   <div class="lista">
     <div class="materias">
-      <p>Selecione as materias que você já pagou:</p>
+      <p>Selecione as matérias que você já pagou:</p>
+      <br>
       <form action="">
         <div>
+          <label class="container">
+            <strong>
+              <p class="periodo">1º PERÍODO</p>
+            </strong>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+          <p class="borda"></p>
           <label class="container">Organização de empresas
             <input type="checkbox" checked="checked">
             <span class="checkmark"></span>
           </label>
 
           <label class="container">Algoritmos e lógica de programação
-            <input type="checkbox">
+            <input type="checkbox" checked="checked">
             <span class="checkmark"></span>
           </label>
 
           <label class="container">Inglês instrumental
-            <input type="checkbox">
+            <input type="checkbox" checked="checked">
             <span class="checkmark"></span>
           </label>
 
           <label class="container">Cálculo diferencial e integral
-            <input type="checkbox">
+            <input type="checkbox" checked="checked">
             <span class="checkmark"></span>
           </label>
 
           <label class="container">Princípios de sistemas de informação
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+          <br>
+          <label class="container">
+            <strong>
+              <p class="periodo">2º PERÍODO</p>
+            </strong>
             <input type="checkbox">
             <span class="checkmark"></span>
           </label>
+          <p class="borda"></p>
 
           <label class="container">Estrutura de dados
             <input type="checkbox">
@@ -59,7 +67,7 @@
           </label>
 
           <label class="container">Arquitetura e organização de computadores
-            <input type="checkbox">
+            <input type="checkbox" checked="checked">
             <span class="checkmark"></span>
           </label>
 
@@ -77,6 +85,4 @@
       </form>
     </div>
   </div>
-
-  <script src="js/navbar.js"></script>
 </body>
