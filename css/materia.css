@@ -1,0 +1,16 @@
+.linha {
+  display: inline;
+}
+
+.formulario input {
+  width: 85%;
+}
+
+.formulario .icone {
+  width: 20%;
+}
+
+.formulario .mensagem {
+  color: #166CBF;
+  margin-bottom: 15px;
+}
