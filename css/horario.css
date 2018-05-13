@@ -1,9 +1,9 @@
 .linha {
-  display: inline;
+  display: block;
 }
 
 .formulario input {
-  width: 75%;
+  width: 100%;
 }
 
 .formulario .icone {
@@ -13,4 +13,12 @@
 .formulario .mensagem {
   color: #166CBF;
   margin-bottom: 15px;
+}
+
+.formulario select {
+  width: 75%;
+}
+
+.formulario input.time{
+  width: 48%;
 }
