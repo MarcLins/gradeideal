@@ -13,7 +13,7 @@
   text-align: center;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.24);
 }
-.formulario input {
+.formulario input, select {
   border-radius: 4px;
   outline: 0;
   background: #f2f2f2;
@@ -50,11 +50,14 @@
   color: #166CBF;
   text-decoration: none;
 }
-.logotipo{
+.logotipo {
   width: 200px;
 }
-.borda{
+.borda {
   border: 0.5px solid #b3b3b3;
+}
+.salvar {
+  margin-bottom: 15px;
 }
 body {
   background: #d7dce0;

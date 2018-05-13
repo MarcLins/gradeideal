@@ -46,8 +46,12 @@ body {
   text-decoration: none;
 }
 
-.borda{
+.borda {
   border: 0.5px solid #b3b3b3;
+}
+
+.nova-grade {
+  margin-bottom: 15px;
 }
 
 /* CHECKBOX */
