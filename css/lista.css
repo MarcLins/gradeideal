@@ -9,7 +9,7 @@ body {
 .materias {
   border-radius: 5px;
   position: relative;
-  background: #FFFFFF;
+  background: #ffffff;
   max-width: 500px;
   margin: 0 auto 100px;
   padding: 45px;
@@ -21,18 +21,20 @@ body {
   text-transform: uppercase;
   margin-bottom: 5px;
   outline: 0;
-  background:#166CBF;
+  background: #166cbf;
   width: 100%;
   border: 0;
   padding: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
 }
-.materias button:hover,.materias button:active,.materias button:focus {
-  background:#1E90FF;
+.materias button:hover,
+.materias button:active,
+.materias button:focus {
+  background: #1e90ff;
 }
 
 .mensagem {
@@ -42,7 +44,7 @@ body {
   font-size: 12px;
 }
 .mensagem a {
-  color: #166CBF;
+  color: #166cbf;
   text-decoration: none;
 }
 
@@ -92,7 +94,7 @@ body {
 }
 
 .container input:checked ~ .checkmark {
-  background-color: #166CBF;
+  background-color: #166cbf;
 }
 
 /* Criar um checkmark (oculto quando não selecionado) */
@@ -120,10 +122,23 @@ body {
   transform: rotate(45deg);
 }
 
-.periodo{
-  color: #166CBF;
+.periodo {
+  color: #166cbf;
 }
 
-.divisao{
+.divisao {
   padding-top: 15px;
+}
+
+/* Mobile - responsivo */
+@media only screen and (max-width: 768px) {
+  .lista {
+    width: 100%;
+  }
+
+  .container {
+    font-size: 15px;
+  }
+
+  /* TODO: Melhorar o padding da fonte dos nomes da matérias no celular - Pagina Lista */
 }
