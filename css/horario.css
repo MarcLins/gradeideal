@@ -1,0 +1,33 @@
+.linha {
+  display: block;
+}
+
+.formulario input {
+  width: 100%;
+}
+
+.formulario .icone {
+  width: 24%;
+}
+
+.formulario .mensagem {
+  color: #166cbf;
+  margin-bottom: 15px;
+}
+
+.formulario select {
+  width: 75%;
+}
+
+.formulario input.time {
+  width: 49.5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .formulario .icone {
+    width: 23%;
+  }
+  .formulario input.time {
+    width: 45%;
+  }
+}

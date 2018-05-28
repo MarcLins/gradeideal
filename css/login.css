@@ -1,19 +1,23 @@
+body {
+  background: #d7dce0;
+}
 .login {
-  width: 360px;
+  width: 500px;
   padding: 2% 0 0;
   margin: auto;
 }
 .formulario {
   position: relative;
   border-radius: 5px;
-  background: #FFFFFF;
-  max-width: 360px;
+  background: #ffffff;
+  max-width: 500px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.24);
 }
-.formulario input {
+.formulario input,
+select {
   border-radius: 4px;
   outline: 0;
   background: #f2f2f2;
@@ -28,18 +32,20 @@
   border-radius: 4px;
   text-transform: uppercase;
   outline: 0;
-  background:#166CBF;
+  background: #166cbf;
   width: 100%;
   border: 0;
   padding: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
 }
-.formulario button:hover,.formulario button:active,.formulario button:focus {
-  background:#1E90FF;
+.formulario button:hover,
+.formulario button:active,
+.formulario button:focus {
+  background: #1e90ff;
 }
 .formulario .mensagem {
   margin: 15px 0 0;
@@ -47,15 +53,22 @@
   font-size: 12px;
 }
 .formulario .mensagem a {
-  color: #166CBF;
+  color: #166cbf;
   text-decoration: none;
 }
-.logotipo{
+.logotipo {
   width: 200px;
 }
-.borda{
+.borda {
   border: 0.5px solid #b3b3b3;
 }
-body {
-  background: #d7dce0;
+.salvar {
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .login,
+  .login-formulario {
+    width: 100%;
+  }
 }
